@@ -1,4 +1,4 @@
-#${\color {blue}\textbf{Project-3-tier-student-app}$
+# ${\color {blue}\textbf{Project-3-tier-student-app}$
 
 ### Prerequisite:
 - VPC
