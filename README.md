@@ -47,7 +47,9 @@
 
 ### Create EC2 Instances 
 1.Nginx-Server-Public ->create in public subnet ->allow port = 80,22
+
 2.Tomcat-Server-Private ->create in private subnet ->allow port = 8080,22
+
 3.Database-Server-Private ->create in private subnet ->allow port = 3306,22
 
 ![image](https://github.com/user-attachments/assets/387a3ea5-a26f-4de2-a1c7-cb31a6b06e02)
@@ -81,8 +83,8 @@ sudo -i
 ````
 yum install nginx -y
 ````
-````
 - create file with name 3-tier-key.pem
+
 ````
 vim 3-tier-key.pem
 ````
